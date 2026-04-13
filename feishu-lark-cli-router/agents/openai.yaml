@@ -1,0 +1,7 @@
+interface:
+  display_name: "Feishu via Lark CLI"
+  short_description: "Route Feishu queries to local lark-cli"
+  default_prompt: "Use $feishu-lark-cli-router to handle a Feishu/Lark query with the local lark-cli first."
+
+policy:
+  allow_implicit_invocation: true
